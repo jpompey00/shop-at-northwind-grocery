@@ -14,6 +14,7 @@
 
 <body>
     <!--Change The Body for the website-->
+    <!--TODO: Remove Navbar-->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -64,29 +65,14 @@
 
             <div class="row">
                 <div class="col">
-                    <input id = "searchByCategoryButton" type = "button" class = "btn btn-primary" value = "Search By Category">
-                    <input id = "viewAllButton" type = "button" class = "btn btn-primary" value = "View All">
+                    <div id="detailsOutput">
+                        <!--Output Info Here-->
+                        
+                    </div>
                 </div>
-                <div class = "col">
-                    <!--TODO: style this-->
-                    <label for = "showDiscontinutedCheckbox">Show discontinuted product</label>
-                    <input id = "showDiscontinutedCheckbox" type = "checkbox"> 
-                </div>
+
             </div>
-            <div class = "row">
-                <div class = "col">
-                    <!--TODO: Make this invisible initially-->
-                    <select id = "categorySelect" class = "form-select" style = "display: none;" >
-                        <option value = "">Select a Category</option>
-                    </select>
-                </div>
-                <div class = "col">
-                    
-                </div>
-            </div>
-            <div id = "cardOutput">
-                <!--Output Cards Here-->
-            </div>
+
         </div>
 
     </main>
@@ -107,6 +93,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
         <script src = "scripts/apiDetails.js"></script>
-    <script src="scripts/index.js"></script>
+    <script src="scripts/details.js"></script>
 </body>
+
 </html
